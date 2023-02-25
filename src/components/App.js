@@ -20,7 +20,7 @@ function App() {
   } 
 
   const onDownVoteChange =() => {
-    setDownVoteCount(downVoteCount - 1)
+    setDownVoteCount(downVoteCount + 1)
   }
 
 
